@@ -1,6 +1,8 @@
-# Chat GTP generated from chat.py code
-#https://pypi.org/project/gTTS/ text to speech
-# code used from https://www.youtube.com/watch?v=5MvYe44zen4
+# https://www.w3schools.com/python/ used for general code 
+# Basic Chatbot code from https://www.youtube.com/watch?v=5MvYe44zen4
+# Chat GTP used for trouble shooting errors
+# Text to scpeech from https://pypi.org/project/gTTS/ text to speech
+
 
 import openai
 import random
@@ -11,7 +13,7 @@ from gtts import gTTS
 from pynput.mouse import Listener
 
 # Chat GTP Model 
-openai.api_key = "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"
+openai.api_key = "private-key"
 model_engine = "text-davinci-003"
 
 # Open Arduino the serial port connection
