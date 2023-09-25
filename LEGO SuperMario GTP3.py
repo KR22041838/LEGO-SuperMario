@@ -3,7 +3,10 @@
 # Chat GTP used for trouble shooting errors
 # Text to scpeech from https://pypi.org/project/gTTS/ text to speech
 
+# This code is for the intergration of Large Language Model GTP3, into the LEGO Super Mario Experience.
+# By KiriAnn Rodenburg
 
+--------------------------------------------------------------------------------------------------------
 import openai
 import random
 import serial
